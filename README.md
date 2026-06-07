@@ -52,6 +52,7 @@ Testing modules are included to validate feature extraction and recommendation f
 
 
  System Architecture:
+ 
 
 Fashion Dataset (styles.csv + images)
                 │
@@ -82,6 +83,7 @@ Recommendations     AI Fashion Assistant
                            │
                            ▼
                      Llama 2 (Ollama)
+
 
 
 

@@ -138,27 +138,22 @@ Image Processing:
 
  Installation-
 
-Clone the repository:
+## Installation
 
-bash
+```bash
+# Clone the repository
 git clone <repository-url>
 
+# Navigate to the project directory
+cd Fashion-Recommendation-System
 
-Navigate to the project directory:
-
-bash
-cd AI-Powered-Fashion-Recommendation-System
-
-
-Install the required dependencies:
-
-bash
+# Install required dependencies
 pip install -r requirements.txt
 
-Run the Streamlit application:
-
-bash
+# Run the application
 streamlit run app.py
+```
+
 
 
 

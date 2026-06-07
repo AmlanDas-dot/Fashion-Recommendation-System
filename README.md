@@ -52,38 +52,24 @@ Testing modules are included to validate feature extraction and recommendation f
 
 
  System Architecture:
- 
 
-Fashion Dataset (styles.csv + images)
-                │
-                ▼
-      Dataset Preprocessing
-                │
-                ▼
-      MobileNetV2 Feature Extraction
-                │
-                ▼
-      Feature Vector Generation
-                │
-                ▼
-      KNN Model Training
-                │
-                ▼
-      Similarity-Based Search
-                │
-                ▼
-      Recommended Fashion Items
-                │
-                ▼
-         Streamlit Interface
-                │
-      ┌─────────┴─────────┐
-      ▼                   ▼
-Recommendations     AI Fashion Assistant
-                           │
-                           ▼
-                     Llama 2 (Ollama)
+## System Architecture
 
+```text
+Dataset
+   ↓
+MobileNetV2 Feature Extraction
+   ↓
+Feature Embeddings
+   ↓
+KNN Similarity Search
+   ↓
+Fashion Recommendations
+   ↓
+Streamlit Web Interface
+   ↓
+AI Fashion Assistant (Llama 2 via Ollama)
+```
 
 
 
